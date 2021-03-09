@@ -1,6 +1,6 @@
 import React from 'react';
 import "./SwipeButtons.css";
-import ReplyIcon from '@material-ui/icons/Reply';
+import ReplayIcon from '@material-ui/icons/Replay';
 import CloseIcon from '@material-ui/icons/Close';
 import StarRateIcon from '@material-ui/icons/StarRate';
 import FavoriteIcon from '@material-ui/icons/Favorite';
@@ -12,7 +12,7 @@ function SwipeButtons() {
     return (
         <div className="swipeButtons">
             <IconButton className="swipeButtons__repeat">
-                <ReplyIcon fontSize="large" />
+                <ReplayIcon fontSize="large" />
             </IconButton>
             <IconButton className="swipeButtons__left">
                 <CloseIcon fontSize="large" />
