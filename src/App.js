@@ -1,9 +1,14 @@
-import './App.css';
+import React from 'react';
+import Header from './components/Header'
+import TinderCards from "./components/TinderCards";
+import SwipeButtons from "./components/SwipeButtons";
 
 function App() {
   return (
     <div className="App">
-      <h1>les build</h1>
+      <Header />
+      <TinderCards />
+      <SwipeButtons />
     </div>
   );
 }
