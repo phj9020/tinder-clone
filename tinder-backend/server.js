@@ -11,6 +11,7 @@ const app = express();
 const port = process.env.PORT || 8001;
 
 
+
 // Middleware
 app.use(cors({origin: true}))
 app.use(express.json());
@@ -20,6 +21,7 @@ mongoose.connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true,
+
 })
 
 // API Endpoint

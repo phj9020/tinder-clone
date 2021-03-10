@@ -5,7 +5,7 @@ import instance from "./axios";
 
 function TinderCards() {
   const [people, setPeople] = useState([]);
- 
+  console.log(people)
   useEffect(()=> {
     const fetchData = async() => {
       const request = await instance.get('/tinder/cards');
