@@ -7,12 +7,12 @@ function TinderCards() {
   const [people, setPeople] = useState([
     {
       name: "Elon Musk",
-      url:
+      imgUrl:
         "https://static01.nyt.com/images/2019/11/01/multimedia/01xp-elonmusk/merlin_162496989_edfc836d-1bcf-45b1-8c42-68eaaac5d1de-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
     },
     {
       name: "Jeff Bezos",
-      url:
+      imgUrl:
         "https://techcrunch.com/wp-content/uploads/2019/10/jeff-bezos-iac-2019-1.jpeg?w=730&crop=1",
     },
   ]);
